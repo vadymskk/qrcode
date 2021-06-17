@@ -1,0 +1,25 @@
+{
+    "name": "worksection/qrcode",
+    "description": "QRCode class (make usable packe from https://github.com/psyon/php-qrcode code)",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "psyon",
+            "role": "Creator"
+        },
+        {
+            "name": "Vadym Dorokh",
+            "email": "vadymski@gmail.com",
+            "role": "Distributor"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Worksection\\QRCode\\": "src/"
+        }
+    }
+}
