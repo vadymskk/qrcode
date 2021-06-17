@@ -25,7 +25,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 
 \****************************************************************************/
-namespace Worksection\QRCode;
+namespace Worksection;
 
 if (realpath(__FILE__) == realpath($_SERVER['SCRIPT_FILENAME'])) {
 	$generator = new QRCode($_REQUEST['d'], $_REQUEST);
