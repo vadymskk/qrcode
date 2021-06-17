@@ -1,7 +1,6 @@
 {
     "name": "worksection/qrcode",
     "description": "QRCode class (make usable packe from https://github.com/psyon/php-qrcode code)",
-    "version": "1.0.0",
     "type": "library",
     "authors": [
         {
